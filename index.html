@@ -1,182 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAT Cargo VAD LLC</title>
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            color: #333;
-        }
-        nav {
-            background: #000;
-            color: #fff;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 30px;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        nav .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            margin: 0;
-            padding: 0;
-        }
-        nav ul li {
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 16px;
-        }
-        .hero {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            padding: 80px 20px;
-            background: #111;
-            color: #fff;
-            min-height: 100vh;
-            animation: fadeIn 2s ease-in-out;
-        }
-        .hero-text {
-            max-width: 500px;
-            padding: 20px;
-            animation: slideInLeft 1.5s ease;
-        }
-        .hero-text h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-        .hero-text p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        .hero-img img {
-            max-width: 400px;
-            width: 100%;
-            border-radius: 10px;
-            animation: slideInRight 1.5s ease;
-        }
-        .section {
-            padding: 60px 20px;
-            text-align: center;
-            max-width: 900px;
-            margin: 0 auto;
-            opacity: 0;
-            transform: translateY(50px);
-            transition: all 1s ease;
-        }
-        .section.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        .section h2 {
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
-        .section p {
-            font-size: 18px;
-            line-height: 1.8;
-            color: #555;
-        }
-        .contact {
-            background: #e9e9e9;
-            padding: 60px 20px;
-        }
-        footer {
-            background: #000;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            font-size: 14px;
-        }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>DMCA Enterprises L.L.C. — Business & Technical Support</title>
+<meta name="description" content="DMCA Enterprises L.L.C. • Business & Technical Support Services in Ventura, CA. Data collection, helpdesk, call center, and documentation.">
+<meta property="og:title" content="DMCA Enterprises L.L.C." />
+<meta property="og:description" content="Business & Technical Support Services in Ventura, CA." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://go4customer.com/articleimages/1542953127technical-support-service.jpg" />
+<link rel="icon" href="https://go4customer.com/articleimages/1542953127technical-support-service.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#2563eb;         /* primary */
+    --blue-2:#60a5fa;
+    --ink:#0f172a;          /* header */
+    --silver:#e5e7eb;       /* borders */
+    --bg:#f3f4f6;           /* page bg */
+    --text:#374151;         /* body */
+    --white:#ffffff;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:Inter,system-ui,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}
+  a{color:var(--blue);text-decoration:none}
 
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        @keyframes slideInLeft {
-            from { transform: translateX(-50px); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
-        }
-        @keyframes slideInRight {
-            from { transform: translateX(50px); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
-        }
-    </style>
+  header{
+    background:linear-gradient(120deg,var(--ink),#0b1220);
+    color:#fff;text-align:center;padding:36px 16px;
+    border-bottom:6px solid var(--blue);
+  }
+  header h1{margin:0;font-size:2.4rem;letter-spacing:.3px}
+  header p{margin:6px 0 0;opacity:.95}
+
+  nav{background:#0b1220;text-align:center;padding:12px}
+  nav a{color:#fff;margin:0 14px;font-weight:800}
+  nav a:hover{color:var(--blue-2)}
+
+  .hero{max-width:1100px;margin:24px auto;display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;padding:0 14px}
+  .hero img{width:100%;border-radius:14px;border:4px solid var(--blue);object-fit:cover}
+  .panel{background:var(--white);border-left:6px solid var(--ink);border-radius:14px;padding:16px}
+  .tag{display:inline-block;background:#dbeafe;border:1px solid #bfdbfe;color:#1e40af;border-radius:999px;padding:6px 12px;margin:6px 6px 0 0;font-size:.9rem}
+
+  .section{max-width:1100px;margin:22px auto;background:var(--white);padding:22px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+  .section h2{margin:0 0 12px;color:#111}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+
+  .card{background:#f9fafb;border:1px solid var(--silver);border-left:6px solid var(--blue);
+        border-radius:10px;padding:12px;transition:.3s}
+  .card:hover{transform:translateY(-3px);box-shadow:0 6px 12px rgba(0,0,0,.08)}
+
+  .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:14px}
+  .gallery img{width:100%;border-radius:10px;border:2px solid var(--blue);object-fit:cover;aspect-ratio:4/3;transition:.25s;background:#fff}
+  .gallery img:hover{transform:scale(1.03)}
+
+  .cta{margin-top:12px;display:flex;gap:12px;flex-wrap:wrap}
+  .btn{background:var(--blue);color:#fff;padding:12px 16px;border-radius:10px;font-weight:800}
+  .btn.secondary{background:#fff;color:var(--text);border:2px solid var(--text)}
+
+  .map{max-width:1100px;margin:16px auto;border-radius:12px;overflow:hidden;border:3px solid var(--blue)}
+  .map iframe{width:100%;height:360px;border:0;display:block}
+
+  form .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+  input, textarea{width:100%;padding:12px 14px;border:2px solid var(--silver);border-radius:10px}
+  textarea{min-height:120px;resize:vertical}
+
+  footer{background:#111827;color:#fff;text-align:center;padding:18px;margin-top:26px;border-top:6px solid var(--blue)}
+
+  .bar{position:fixed;left:0;right:0;bottom:0;background:#ffffffd9;backdrop-filter:blur(6px);
+       display:flex;gap:10px;justify-content:center;padding:10px;border-top:2px solid var(--blue);z-index:999}
+  .bar a{background:#111827;color:#fff;padding:10px 14px;border-radius:999px;font-weight:800}
+  .bar a:nth-child(2){background:var(--blue)}
+  @media(min-width:820px){.bar{display:none}}
+  @media(max-width:900px){.hero{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
 
-    <nav>
-        <div class="logo">PAT Cargo VAD LLC</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<header>
+  <h1>DMCA Enterprises L.L.C.</h1>
+  <p>Business & Technical Support • Ventura, CA</p>
+</header>
 
-    <div class="hero" id="home">
-        <div class="hero-text">
-            <h1>PAT Cargo VAD LLC</h1>
-            <p>Your trusted partner in transportation and warehousing. We provide reliable cargo services and storage solutions to meet your business needs with efficiency and care.</p>
-        </div>
-        <div class="hero-img">
-            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=934&q=80" alt="Cargo Services">
-        </div>
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <img src="https://asset.fujifilm.com/www/us/files/2020-01/2b6069d869e52c755f1f44049317a7d6/pic_01-technical-support.jpg" alt="Technical support teamwork">
+  <div class="panel">
+    <h2>Reliable support that scales with you.</h2>
+    <p>We help organizations streamline operations with research, helpdesk, and contact-center solutions. Clear SLAs, responsive communication, and measurable outcomes.</p>
+    <div>
+      <span class="tag">📊 Data Collection</span>
+      <span class="tag">🖥️ Technical Support</span>
+      <span class="tag">☎️ Contact Center</span>
+      <span class="tag">🧩 Process Documentation</span>
     </div>
-
-    <div class="section" id="about">
-        <h2>About Us</h2>
-        <p>PAT Cargo VAD LLC is a Domestic LLC based in Arizona, offering specialized services in transportation and warehousing. With a focus on reliability and customer satisfaction, we have been serving businesses since 2021.</p>
-        <p><strong>Registered Address:</strong><br>
-        2902 W Sweetwater Ave, Apt 2190, Phoenix, AZ 85029, United States</p>
+    <div class="cta">
+      <a class="btn" href="tel:+19255020993">Call: +1 (925) 502-0993</a>
+      <a class="btn secondary" href="mailto:contact@ladnione.shop">Email: contact@ladnione.shop</a>
     </div>
+  </div>
+</section>
 
-    <div class="section contact" id="contact">
-        <h2>Contact Us</h2>
-        <p><strong>Email:</strong> <a href="mailto:contact@patcargovadllc.click">contact@patcargovadllc.click</a></p>
-        <p><strong>Agent Address:</strong><br>
-        2902 W Sweetwater Ave, Apt 2190, Phoenix, AZ 85029, United States</p>
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <p><strong>DMCA Enterprises L.L.C.</strong> delivers business support and technical services tailored to your stack and workflows. From one-off research to ongoing Tier-1/Tier-2 helpdesk, we plug in where you need us most.</p>
+  <p><strong>Address:</strong> 8262 Medford St, Ventura, CA 93004, United States •
+     <strong>Email:</strong> <a href="mailto:contact@ladnione.shop">contact@ladnione.shop</a> •
+     <strong>Phone:</strong> <a href="tel:+19255020993">+1 (925) 502-0993</a></p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card"><strong>Data Collection & Research</strong><br/>Lead lists, market scans, QA checks, and data enrichment.</div>
+    <div class="card"><strong>Technical Support (Tier-1/2)</strong><br/>Multichannel ticket handling, knowledge base updates, KPI reporting.</div>
+    <div class="card"><strong>Contact Center</strong><br/>Inbound/outbound, appointment setting, and customer success follow-ups.</div>
+    <div class="card"><strong>Documentation & SOPs</strong><br/>Process mapping, SOP authoring, and onboarding guides.</div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/23599422/original/57972d6bb470c40cb3b4f41a40ef8eb631e93003/do-all-type-of-data-collection-and-research-tasks.png" alt="Data collection & research">
+    <img src="https://go4customer.com/articleimages/1542953127technical-support-service.jpg" alt="Technical support service">
+    <img src="https://asset.fujifilm.com/www/us/files/2020-01/2b6069d869e52c755f1f44049317a7d6/pic_01-technical-support.jpg" alt="IT helpdesk">
+    <img src="https://m247-com-media.m247labs.uk/uploads/2019/12/contact-centre.jpg" alt="Contact center">
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="map" id="map">
+  <iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=8262+Medford+St,+Ventura,+CA+93004&output=embed"
+          title="Map to DMCA Enterprises L.L.C."></iframe>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Get a Quote</h2>
+  <p>Tell us what you need and we’ll get right back to you.</p>
+  <form action="mailto:contact@ladnione.shop?subject=New%20Inquiry%20from%20Website" method="post" enctype="text/plain">
+    <div class="row">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="you@example.com" required>
     </div>
+    <div class="row">
+      <input type="tel" name="phone" placeholder="Phone (optional)">
+      <input type="text" name="company" placeholder="Company (optional)">
+    </div>
+    <textarea name="message" placeholder="Project details / services needed..." required></textarea>
+    <div class="cta">
+      <button class="btn" type="submit">Send Request</button>
+      <a class="btn secondary" href="tel:+19255020993">Or call +1 (925) 502-0993</a>
+    </div>
+  </form>
+</section>
 
-    <footer>
-        &copy; 2025 PAT Cargo VAD LLC. All rights reserved.
-    </footer>
+<!-- MOBILE BAR -->
+<div class="bar">
+  <a href="tel:+19255020993">Call</a>
+  <a href="mailto:contact@ladnione.shop">Email</a>
+  <a href="#services">Services</a>
+</div>
 
-    <script>
-        // Intersection Observer for fade-in effect
-        const sections = document.querySelectorAll('.section');
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, {
-            threshold: 0.1
-        });
-
-        sections.forEach(section => {
-            observer.observe(section);
-        });
-    </script>
+<footer>
+  <p>&copy; 2025 DMCA Enterprises L.L.C. — Business & Technical Support Services</p>
+</footer>
 
 </body>
 </html>
